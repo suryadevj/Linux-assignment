@@ -1,0 +1,77 @@
+1a)mkdir ev4
+makes a directory named ev4
+
+b)cd ev4
+goes to the current directory ev4
+
+c)mkdir 59
+created a directory named 59
+
+d)ls -l 59
+checks if the directory 59 is there or not
+
+e)i. cd - → Switches to previous working directory.
+ ii. cd - → Switches back to the directory before last.
+ iii. cd . → Stays in the current directory.
+ iv. cd .. → Moves to parent directory.
+ v. cd ~ → Goes to home directory.
+ vi. cd / → Goes to root directory.
+ vii. ls -l → Displays files in long listing format.
+ viii. cd media → Enters media directory.
+ ix. cd → Goes to home directory.
+ x. pwd → Prints current directory path.
+ xi. cd media → Enters media folder inside current directory.
+ xii. cd /media → Goes to media directory using absolute path.
+ xiii. ls -l → Shows detailed list of files.
+ xiv. ls -al → Shows all files including hidden in long format.
+ xv. cd ~/ev4/<rollno> → Moves to specified roll number folder.
+ xvi. mkdir emptydummy → Creates emptydummy directory.
+ xvii. mkdir dummy → Creates dummy directory.
+ xviii. cd dummy → Enters dummy directory.
+ xix. touch file1 → Creates file1.
+ xx. touch file2 → Creates file2.
+ xxi. ls -l → Lists files in long format.
+ xxii. rm -i file2 → Deletes file2 with confirmation.
+ xxiii. ls -l → Shows remaining files.
+ xxiv. cd .. → Moves to parent directory.
+ xxv. rm emptydummy → Fails because directory cannot be removed this way.
+ xxvi. rmdir emptydummy → Deletes emptydummy directory.
+ xxvii. rmdir dummy → Fails because dummy is not empty.
+ xxviii. rm -r dummy → Deletes dummy directory with contents
+
+2)cat>file1.txt
+creates a file named file1.txt
+type "My first line" inside this file
+
+3)cat>file2.txt
+creates a file named file2.txt
+type "Hello Second line" inside this file
+
+5)create a file named file3.txt
+type "Hello line"
+
+6)cat file1.txt file2.txt>file_combined.txt
+the contents of both file to a file called
+file_combined.txt
+
+8) cat file3.txt >> file_combined.txt → Appends contents of file3.txt to file_combined.txt.
+
+9) cat file_combined.txt → Displays contents of file_combined.txt.
+
+10) grep -i hello file* → Searches for word "hello" (case-insensitive) in all files starting with file.
+
+11) cp file1.txt ~/ev4 → Copies file1.txt to ev4 directory.
+
+12) mv file_combined.txt combined → Renames file_combined.txt to combined.
+
+13) chmod u+x combined → Gives execute permission to owner.
+
+14) chmod g-r combined → Removes read permission from group.
+
+15) chmod 777 combined → Gives full permissions to all users.
+
+16) sudo useradd alice → Creates new user named alice.
+
+17) sudo passwd alice → Sets password for alice.
+
+18) sudo userdel alice → Deletes user alice.
